@@ -3,7 +3,7 @@
 一、osgbToslpk工具： 如果使用Pro中的Create Integrated Mesh Scene Layer Package工具报错，可以使用osgbToslpk工具，使用方法：                      
 1，输入osgb文件夹路径那里选择Data的上一级文件夹；                                                
 2，工具会自动寻找输入文件夹下有没有metadata.xml文件，如果有的话，输入锚点文件参数下会自动识别出该文件， 没有的话可以手动选择shapefile文件；                    
-3，空间参考输入WKID即可。                    
+3，空间参考输入WKID或者WKT都可。                    
 4，纹理优化参数默认是Desktop，即纹理格式为jpg+dds，如果选择None，则纹理只生成jpg。                             
 
 tips：该工具目前仅针对Pro 2.7版本                  
